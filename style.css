@@ -41,7 +41,13 @@ a{
     position: sticky;
     top: 0;
     z-index: 10;
-    background: var(--bg-white);
+    background: linear-gradient(to top, white 60%, black 40%);
+    width: 100%;
+    height: 130px;
+}
+.header_logo{
+    display: block;
+    margin: 10px;
 }
 .header_top-list{
     display: flex;
@@ -109,7 +115,7 @@ a{
     border: none;
     outline: none;
     position: absolute;
-    right: 100px;
+    right: 110px;
 }
 .form__button{
     display: flex;
@@ -124,6 +130,14 @@ a{
     height: 38px;
     border: none;
     outline: none;
+}
+.nav-link{
+    color: var(--color-black);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.nav-link:hover{
+    text-decoration: 2px underline solid;
 }
 
 
@@ -588,4 +602,24 @@ a{
     align-self: center;
     justify-self: center;
     flex-direction: column;
+}
+
+.bottom_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.bottom_item{
+    text-align: center;
+}
+
+
+.footer{
+    background: var(--bg-black);
+    width: 100%;
+    height: 440px;
+}
+.footer_wraper{
+    margin-top:150px;
 }
