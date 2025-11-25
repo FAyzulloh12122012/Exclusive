@@ -43,7 +43,7 @@ a{
     z-index: 10;
     background: linear-gradient(to top, white 60%, black 40%);
     width: 100%;
-    height: 130px;
+    height: 140px;
 }
 .header_logo{
     display: block;
@@ -60,6 +60,7 @@ a{
     background: var(--bg-black);
     height: 48px;
     width: 100%;
+    padding-top: 20px;
 }
 .header_top-text{
     color: var(--color-white);
@@ -732,17 +733,4 @@ a{
     justify-content: center;
     margin-top: 50px;
     color: var(--color-white);
-}
-
-@media screen and (max-width:1024px){
- 
-}
-@media screen and (max-width:768px){
-    
-}
-@media screen and (max-width:480px){
-    
-}
-@media screen and (max-width:320px){
-    
 }
